@@ -10,12 +10,7 @@
 /* Thin */
 @font-face {
     font-family: 'HarmonyOS Sans Naskh Arabic';
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Thin.eot');
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Thin.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Thin.woff2') format('woff2'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Thin.woff') format('woff'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Thin.ttf') format('truetype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Thin.svg#HarmonyOS_Sans_Naskh_Arabic_Thin') format('svg');
+    src: url('../fonts/HarmonyOS_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Thin.woff2') format('woff2');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -24,13 +19,26 @@
 /* Thin UI */
 @font-face {
     font-family: 'HarmonyOS Sans Naskh Arabic';
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Thin.eot');
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Thin.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Thin.woff2') format('woff2'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Thin.woff') format('woff'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Thin.ttf') format('truetype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Thin.svg#HarmonyOS_Sans_Naskh_Arabic_UI_Thin') format('svg');
+    src: url('../fonts/HarmonyOS_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_ArabicUI_Thin.woff2') format('woff2');
     font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* UltraLight */
+@font-face {
+    font-family: 'HarmonyOS Sans Naskh Arabic';
+    src: url('../fonts/HarmonyOS_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_UltraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* UltraLight UI */
+@font-face {
+    font-family: 'HarmonyOS Sans Naskh Arabic';
+    src: url('../fonts/HarmonyOS_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_ArabicUI_UltraLight.woff2') format('woff2');
+    font-weight: 200;
     font-style: italic;
     font-display: swap;
 }
@@ -38,12 +46,7 @@
 /* Light */
 @font-face {
     font-family: 'HarmonyOS Sans Naskh Arabic';
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Light.eot');
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Light.woff2') format('woff2'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Light.woff') format('woff'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Light.ttf') format('truetype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Light.svg#HarmonyOS_Sans_Naskh_Arabic_Light') format('svg');
+    src: url('../fonts/HarmonyOS_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Light.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -52,12 +55,7 @@
 /* Light UI */
 @font-face {
     font-family: 'HarmonyOS Sans Naskh Arabic';
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Light.eot');
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Light.woff2') format('woff2'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Light.woff') format('woff'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Light.ttf') format('truetype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Light.svg#HarmonyOS_Sans_Naskh_Arabic_UI_Light') format('svg');
+    src: url('../fonts/HarmonyOS_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_ArabicUI_Light.woff2') format('woff2');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -66,13 +64,8 @@
 /* Regular */
 @font-face {
     font-family: 'HarmonyOS Sans Naskh Arabic';
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Regular.eot');
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Regular.woff2') format('woff2'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Regular.woff') format('woff'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Regular.ttf') format('truetype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Regular.svg#HarmonyOS_Sans_Naskh_Arabic') format('svg');
-    font-weight: normal;
+    src: url('../fonts/HarmonyOS_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Regular.woff2') format('woff2');
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
@@ -80,13 +73,8 @@
 /* Regular UI */
 @font-face {
     font-family: 'HarmonyOS Sans Naskh Arabic';
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Regular.eot');
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Regular.woff2') format('woff2'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Regular.woff') format('woff'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Regular.ttf') format('truetype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Regular.svg#HarmonyOS_Sans_Naskh_Arabic_UI') format('svg');
-    font-weight: normal;
+    src: url('../fonts/HarmonyOS_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_ArabicUI_Regular.woff2') format('woff2');
+    font-weight: 400;
     font-style: italic;
     font-display: swap;
 }
@@ -94,12 +82,7 @@
 /* Medium */
 @font-face {
     font-family: 'HarmonyOS Sans Naskh Arabic';
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Medium.eot');
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Medium.woff2') format('woff2'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Medium.woff') format('woff'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Medium.ttf') format('truetype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Medium.svg#HarmonyOS_Sans_Naskh_Arabic_Medium') format('svg');
+    src: url('../fonts/HarmonyOS_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -108,13 +91,26 @@
 /* Medium UI */
 @font-face {
     font-family: 'HarmonyOS Sans Naskh Arabic';
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Medium.eot');
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Medium.woff2') format('woff2'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Medium.woff') format('woff'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Medium.ttf') format('truetype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Medium.svg#HarmonyOS_Sans_Naskh_Arabic_UI_Medium') format('svg');
+    src: url('../fonts/HarmonyOS_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_ArabicUI_Medium.woff2') format('woff2');
     font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* SemiBold */
+@font-face {
+    font-family: 'HarmonyOS Sans Naskh Arabic';
+    src: url('../fonts/HarmonyOS_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* SemiBold UI */
+@font-face {
+    font-family: 'HarmonyOS Sans Naskh Arabic';
+    src: url('../fonts/HarmonyOS_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_ArabicUI_SemiBold.woff2') format('woff2');
+    font-weight: 600;
     font-style: italic;
     font-display: swap;
 }
@@ -122,13 +118,8 @@
 /* Bold */
 @font-face {
     font-family: 'HarmonyOS Sans Naskh Arabic';
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Bold.eot');
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Bold.woff2') format('woff2'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Bold.woff') format('woff'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Bold.ttf') format('truetype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Bold.svg#HarmonyOS_Sans_Naskh_Arabic_Bold') format('svg');
-    font-weight: bold;
+    src: url('../fonts/HarmonyOS_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Bold.woff2') format('woff2');
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
@@ -136,13 +127,26 @@
 /* Bold UI */
 @font-face {
     font-family: 'HarmonyOS Sans Naskh Arabic';
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Bold.eot');
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Bold.woff2') format('woff2'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Bold.woff') format('woff'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Bold.ttf') format('truetype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Bold.svg#HarmonyOS_Sans_Naskh_Arabic_UI_Bold') format('svg');
-    font-weight: bold;
+    src: url('../fonts/HarmonyOS_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_ArabicUI_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Heavy */
+@font-face {
+    font-family: 'HarmonyOS Sans Naskh Arabic';
+    src: url('../fonts/HarmonyOS_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Heavy.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Heavy UI */
+@font-face {
+    font-family: 'HarmonyOS Sans Naskh Arabic';
+    src: url('../fonts/HarmonyOS_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_ArabicUI_Heavy.woff2') format('woff2');
+    font-weight: 800;
     font-style: italic;
     font-display: swap;
 }
@@ -150,12 +154,7 @@
 /* Black */
 @font-face {
     font-family: 'HarmonyOS Sans Naskh Arabic';
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Black.eot');
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Black.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Black.woff2') format('woff2'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Black.woff') format('woff'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Black.ttf') format('truetype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Black.svg#HarmonyOS_Sans_Naskh_Arabic_Black') format('svg');
+    src: url('../fonts/HarmonyOS_Naskh_Arabic/HarmonyOS_Sans_Naskh_Arabic_Black.woff2') format('woff2');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -164,12 +163,7 @@
 /* Black UI */
 @font-face {
     font-family: 'HarmonyOS Sans Naskh Arabic';
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Black.eot');
-    src: url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Black.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Black.woff2') format('woff2'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Black.woff') format('woff'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Black.ttf') format('truetype'),
-        url('../fonts/HarmonyOS_Sans_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_Arabic_UI_Black.svg#HarmonyOS_Sans_Naskh_Arabic_UI_Black') format('svg');
+    src: url('../fonts/HarmonyOS_Naskh_Arabic_UI/HarmonyOS_Sans_Naskh_ArabicUI_Black.woff2') format('woff2');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
